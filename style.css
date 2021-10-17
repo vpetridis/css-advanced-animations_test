@@ -2,12 +2,14 @@ body {
   background-color: rgb(255, 242, 226);
   display: grid;
   height: 100vh;
-  place-items: stretch ;
+  place-items: stretch;
   margin: 0 auto;
   overflow: hidden;
 }
 .container,
 #box {
+  position: relative;
+  top: 5vh;
   width: 20vw;
   height: 20vh;
 }
@@ -63,14 +65,16 @@ body {
 }
 
 .code-example {
- background: rgb(236, 186, 144);
+  background: rgb(236, 186, 144);
   word-wrap: break-word;
   box-decoration-break: clone;
-  padding: .1rem .3rem .2rem;
-  border-radius: .2rem;
+  padding: 0.1rem;
+  border-radius: 0.2rem;
   padding: 2rem;
   margin: 1rem;
   border-radius: 5px;
-  bottom: 30vh;
-  
+  /* bottom: 30vh; */
+  justify-self: center;
+  align-self: center;
+  width: 50%;
 }
