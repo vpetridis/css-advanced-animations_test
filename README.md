@@ -1,6 +1,6 @@
 # animations-test_1
 
-### [Check it online](https://vpetridis.github.io/css-animations_test-1/)
+### [Check it online](https://vpetridis.github.io/ css-advanced-animations_test/)
 
 Motivation:
 - Find out more about cubic bezier custom transitions
